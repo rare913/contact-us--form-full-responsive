@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(197, 196, 196);
+        }
+
+        i {
+            position: absolute;
+            padding-top: 33px;
+            padding-left: 14px;
+
+        }
+
+        .main h1 {
+            padding-top: 50px;
+            padding-left: 170px;
+            padding-bottom: 10px;
+            color: #34395e;
+
+        }
+
+        .main input {
+            width: 500px;
+            height: 40px;
+            padding-left: 30px;
+            margin-top: 20px;
+        }
+
+        ::placeholder {
+            font-size: 16px;
+            color: #34395e;
+            font-weight: bold;
+        }
+
+        textarea {
+            width: 498px;
+            padding-left: 35px;
+            height: 100px;
+            padding-top: 10px;
+            margin-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .main button {
+            width: 535px;
+            height: 40px;
+            background-color: rgb(51, 50, 50);
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .main {
+            width: 585px;
+            height: 550px;
+            background-color: rgb(236, 237, 238);
+            padding-left: 50px;
+            margin-top: 200px;
+            margin-left: 630px;
+            box-shadow: 1px 1px 1pc 1px gray;
+            margin-right: 200px;
+
+        }
+
+        @media screen and (min-device-width: 1024px) and (max-device-width: 1750px) {
+
+            .main {
+                width: 585px;
+                height: 550px;
+                background-color: rgb(236, 237, 238);
+                padding-left: 50px;
+                margin-top: 200px;
+                margin-left: 28%;
+                box-shadow: 1px 1px 1pc 1px gray;
+                margin-bottom: 100px;
+                margin-right: 200px;
+
+            }
+
+
+
+        }
+
+        @media screen and (min-device-width: 500px) and (max-device-width: 1023px) {
+
+            .main {
+                width: 585px;
+                height: 550px;
+                background-color: rgb(236, 237, 238);
+                padding-left: 50px;
+                margin-top: 100px;
+                margin-left: 8%;
+                box-shadow: 1px 1px 1pc 1px gray;
+                margin-bottom: 100px;
+                margin-right: 50px;
+
+            }
+        }
+
+        @media screen and (max-width:499px) {
+
+            .main {
+                width: 585px;
+                height: 550px;
+                background-color: rgb(236, 237, 238);
+                padding-left: 50px;
+                margin-top: 100px;
+                margin-left: 3%;
+                box-shadow: 1px 1px 1pc 1px gray;
+                margin-bottom: 100px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <form>
+            <h1>Contact Us</h1>
+            <div class="ch1">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Name">
+            </div>
+
+            <div class="ch2">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="ch3">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Address">
+            </div>
+
+            <div class="ch4">
+                <i class="fa-solid fa-message"></i>
+                <textarea placeholder="Message"></textarea>
+            </div>
+
+            <button><a href="#">Send</a></button>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
